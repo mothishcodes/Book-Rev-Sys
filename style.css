@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 40px;
+}
+
+.book {
+  background: #fff;
+  padding: 20px;
+  margin: auto;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
