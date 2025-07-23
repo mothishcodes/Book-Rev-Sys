@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Review System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 Book Review System</h1>
+
+  <div class="book">
+    <h2>Book Title: The Alchemist</h2>
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name"><br>
+
+    <label for="rating">Rating (1 to 5):</label><br>
+    <input type="number" id="rating" min="1" max="5"><br>
+
+    <label for="review">Your Review:</label><br>
+    <textarea id="review" rows="4" cols="40"></textarea><br>
+
+    <button onclick="submitReview()">Submit Review</button>
+    <p id="response"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
